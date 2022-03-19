@@ -1,0 +1,142 @@
+body{
+    margin:0px;
+}
+#container{
+    display: flex;
+    align-items: center;
+    color:#a6acaa;
+    font-size: 24px;
+}
+#container div{
+    padding-left: 30px;
+    padding-right:30px;
+}
+#button-self{
+    background-color: #FFD8DB;
+    color:#A389CC;
+    font-size: 20px;
+    padding:16px;
+    border: 1px solid pink;
+    border-radius:10px;
+}
+nav{
+    display:flex;
+    justify-content:space-between;
+    margin-top:30px;
+}
+#image-section{
+    display: flex;
+    margin-left:30px;
+}
+#button-section{
+    display: flex;
+    margin-right:20px;
+}
+.item:hover{
+    text-decoration:underline;
+    text-decoration-thickness:5px;
+    color:black;
+    text-decoration-color: blue;
+}
+#background-imageset{
+    width:800px;
+    height:800px;
+    display:inline-block;
+    background-image: url(landing-section-image.png);
+    background-repeat: no-repeat;
+}
+#main-section{
+    display:flex;
+    justify-content:space-between;
+    margin-top:30px;
+    margin-left:30px;
+}
+#left-main-section{
+    padding-left:50px;
+    padding-top:100px;
+    font-size: 32px;
+}
+#right-main-section{
+    display: flex;
+}
+p{
+  font-size: 20px;  
+  color:#a6acaa;
+}
+#button-new{
+    background-color: #5243C0;
+    color:#ffffff;
+    font-size: 12px;
+    padding:16px;
+    border: 1px solid #5243C0;
+    border-radius:10px;
+    margin-bottom:10px;
+}
+#new-button-section{
+    display:flex;
+    justify-content:row;
+}
+#data-list{
+    margin-top:40px;
+    font-size:20px;
+}
+td{
+    padding-left:10px;
+    padding-right:10px;
+    margin-left:5px;
+}
+.button-section-sp{
+    padding:10px;
+}
+.data-section:hover{
+    background-color: white;
+}
+#data-card{
+    background-color: whitesmoke;
+}
+footer{
+    margin-top:50px;
+}
+#dmm-user{
+    display:block;
+    width: 20px !important;
+    height:10px !important;;
+    border: 1px solid #FED7DA;
+    border-radius:3px;
+    background-color:#FED7DA;
+}
+#blur-user{
+    display:block;
+    width: 20px !important;
+    height:10px !important;;
+    border: 1px solid #FD6534;
+    border-radius:3px;
+    background-color:#FD6534;
+}
+#ill-user{
+    display:block;
+    width: 20px !important;
+    height:10px !important;;
+    border: 1px solid #9ED095;
+    border-radius:3px;
+    background-color:#9ED095;
+}
+#ref-user{
+    display:block;
+    width: 20px !important;
+    height:10px !important;;
+    border: 1px solid #FFE4A0;
+    border-radius:3px;
+    background-color:#FFE4A0;
+}
+
+table tr:hover td div.tick-section{
+    background: url(tick-blue.png);
+    background-repeat: no-repeat;
+}
+.tick-section{
+    background: url(tick-gray.png);
+    background-repeat: no-repeat;
+    width:30px;
+    height:30px;
+}
